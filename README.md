@@ -20,16 +20,16 @@ objective index of body weight (kg / m ^ 2) using the ratio of height to weight,
 
 # Exploratory Data Analysis
 • Feature sex, region has an almost balanced amount, meanwhile most people are non smoker & obese <br>
-![image](https://user-images.githubusercontent.com/80570935/130601931-826570ec-df1d-4b85-918f-00eb740ed212.png)
+![image](https://github.com/mohan-kartik/Health_Insurance_Cost_Prediction/blob/main/images/bar_chart1.png)
 
 • A person who smoke and have BMI above 30 tends to have a higher medical cost <br>
-![image](https://user-images.githubusercontent.com/80570935/130602334-b62a7f7e-e1c8-45eb-be7d-ff752853d158.png)
+![image](https://github.com/mohan-kartik/Health_Insurance_Cost_Prediction/blob/main/images/scatter1.png)
 
 • Older people who smoke have more expensive charges <br>
-![image](https://user-images.githubusercontent.com/80570935/130602565-2cb73fa9-769b-4822-880e-c009d2fbef39.png)
+![image](https://github.com/mohan-kartik/Health_Insurance_Cost_Prediction/blob/main/images/scatter2.png)
 
 • People who smoke and obese have the highest average charges compared to others <br>
-![image](https://user-images.githubusercontent.com/80570935/130602770-c008fb2b-2041-440e-b92e-373e7cbed2ce.png)
+![image](https://github.com/mohan-kartik/Health_Insurance_Cost_Prediction/blob/main/images/bar2.png)
 
 # Data Processing 
 1. Check missing value - there are none <br>

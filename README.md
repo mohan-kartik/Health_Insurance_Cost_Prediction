@@ -1,5 +1,6 @@
 <h1><p align = "center"> Medical Insurance Cost Prediction</p></h1>
-<b>Project Overview:</b> <br>
+
+# Project Overview
 • Seek insight from the dataset with Exploratory Data Analysis <br>
 • Performed Data Processing, Data Engineering and Feature Transformation to prepare data before modeling <br>
 • Built a model to predict Insurance Cost based on the features <br>

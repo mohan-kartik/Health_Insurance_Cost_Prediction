@@ -1,6 +1,6 @@
-<h1><p align = "center"> Medical Insurance Cost Prediction</p></h1>
+<h1><p align = "center"><image src='https://github.com/mohan-kartik/Health_Insurance_Cost_Prediction/assets/42971268/22635c24-b9b4-450d-959b-9cc2f6517662' width=300>
 
-# Project Overview
+## Project Overview
 • Seek insight from the dataset with Exploratory Data Analysis <br>
 • Performed Data Processing, Data Engineering and Feature Transformation to prepare data before modeling <br>
 • Built a model to predict Insurance Cost based on the features <br>
@@ -8,7 +8,7 @@
 <br>
 Data source : https://www.kaggle.com/mirichoi0218/insurance
 
-# Data Definition
+## Data Definition
 1. age: age of primary beneficiary
 2. sex: insurance contractor gender, female, male
 3. bmi: Body mass index, providing an understanding of body, weights that are relatively high or low relative to height,
@@ -18,20 +18,7 @@ objective index of body weight (kg / m ^ 2) using the ratio of height to weight,
 6. region: the beneficiary's residential area in the US, northeast, southeast, southwest, northwest
 7. charges: Individual medical costs billed by health insurance
 
-# Exploratory Data Analysis
-• Feature sex, region has an almost balanced amount, meanwhile most people are non smoker & obese <br>
-![image](https://github.com/mohan-kartik/Health_Insurance_Cost_Prediction/blob/main/images/bar_chart1.png)
-
-• A person who smoke and have BMI above 30 tends to have a higher medical cost <br>
-![image](https://github.com/mohan-kartik/Health_Insurance_Cost_Prediction/blob/main/images/scatter1.png)
-
-• Older people who smoke have more expensive charges <br>
-![image](https://github.com/mohan-kartik/Health_Insurance_Cost_Prediction/blob/main/images/scatter2.png)
-
-• People who smoke and obese have the highest average charges compared to others <br>
-![image](https://github.com/mohan-kartik/Health_Insurance_Cost_Prediction/blob/main/images/bar2.png)
-
-# Data Processing 
+ ## Data Processing 
 1. Check missing value - there are none <br>
 2. Check duplicate value - there are 1 duplicate, will be remove <br>
 3. Feature engineering - make a new column `weight_status` based on BMI score <br>
@@ -45,7 +32,21 @@ objective index of body weight (kg / m ^ 2) using the ratio of height to weight,
  D) Find the best algorithm <br>
  E) Tuning Hyperparameter <br>
  
- # Model Evaluation 
+## Exploratory Data Analysis
+• Feature sex, region has an almost balanced amount, meanwhile most people are non smoker & obese <br>
+![image](https://github.com/mohan-kartik/Health_Insurance_Cost_Prediction/blob/main/images/bar_chart1.png)
+
+• A person who smoke and have BMI above 30 tends to have a higher medical cost <br>
+![image](https://github.com/mohan-kartik/Health_Insurance_Cost_Prediction/blob/main/images/scatter1.png)
+
+• Older people who smoke have more expensive charges <br>
+![image](https://github.com/mohan-kartik/Health_Insurance_Cost_Prediction/blob/main/images/scatter2.png)
+
+• People who smoke and obese have the highest average charges compared to others <br>
+![image](https://github.com/mohan-kartik/Health_Insurance_Cost_Prediction/blob/main/images/bar2.png)
+
+
+## Model Evaluation 
 | Score | LinearRegression | DecisionTree | RandomForest | Ridge |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | R2 | 0.77 | 0.78 | 0.78 | 0.86 |
